@@ -1,0 +1,80 @@
+/*
+    TODO - what the fuck is going on with main and otherPage divs
+  TODO - links to be next to each other
+  TODO - footer design
+  TODO - other pages design
+  */
+
+html {
+    background-color: #694F8E;
+    font-size: 20px;
+}
+h1{
+    color: #FFDFD6;
+}
+h2{
+    color: #FFDFD6;
+}
+hr {
+    width: 60%;
+}
+.hrSmall {
+    width: 10%;
+}
+h3{
+    color: #E3A5C7;
+}
+h4{
+    color: #B692C2;
+}
+.standardHead{
+    text-align: center;
+    color: #FFDFD6;
+}
+#quote{
+    font-style: italic;
+}
+.links{
+    margin: 20px;
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    color: #B692C2;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.mainContact{
+    margin:20px;
+    text-align: center;
+}
+
+.mainSkills{
+    margin:20px;
+    width: 70%;
+    margin-left: 25%;
+}
+.mainLeft{
+    width: 50%;
+    float: left;
+}
+.mainRight{
+    width: 50%;
+    float: left;
+}
+
+a:link { 
+    text-decoration: none; 
+  } 
+  a:visited { 
+    text-decoration: none; 
+  } 
+  a:hover {  
+    text-decoration: underline; 
+    text-decoration-color: #B692C2;
+  } 
+  a:active { 
+    text-decoration: none; 
+  }
+  
