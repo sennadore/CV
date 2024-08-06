@@ -1,80 +1,55 @@
+a:link { text-decoration: none;} 
+a:visited { text-decoration: none;} 
+a:hover { text-decoration: underline; text-decoration-color: #00ADB5;} 
+a:active { text-decoration: none;}
+html{background-color: #222831;}
 /*
-    TODO - what the fuck is going on with main and otherPage divs
-  TODO - links to be next to each other
-  TODO - footer design
-  TODO - other pages design
-  */
-
-html {
-    background-color: #694F8E;
-    font-size: 20px;
-}
-h1{
-    color: #FFDFD6;
-}
-h2{
-    color: #FFDFD6;
-}
-hr {
-    width: 60%;
-}
-.hrSmall {
-    width: 10%;
-}
-h3{
-    color: #E3A5C7;
-}
-h4{
-    color: #B692C2;
-}
-.standardHead{
+#222831 black
+#393E46 grey
+#00ADB5 torquise
+#EEEEEE white*/
+.header{
+    color: #00ADB5;
+    font-size: 2rem;
+    margin: 0px;
     text-align: center;
-    color: #FFDFD6;
+    position: absolute;
+    width: 100%;
 }
-#quote{
-    font-style: italic;
+.header > h1{
+    margin: 100px 0px 10px 0px;
 }
-.links{
-    margin: 20px;
-    text-align: center;
+.header > h2{
+    margin: 10px;
+}
+.header #quote{
+    color: #EEEEEE;
+    font-size: 1rem;
+    margin: 0;
+}
+.header > hr{
+    width: 40%;
+    border-color: black;
+}
+.main{
+    color: #EEEEEE;
+    position: relative;
+    top: 300px;
+}
+.main h3, h4{
+    font-size: 1.5rem;
+}
+.navbar{
+    position: relative;
+}
+.navbar > a{
+    color: white;
 }
 .footer{
-    text-align: center;
-    color: #B692C2;
     position: fixed;
-    width: 100%;
+    left: 0;
     bottom: 0;
-}
-.mainContact{
-    margin:20px;
+    width: 100%;
+    color: white;
     text-align: center;
 }
-
-.mainSkills{
-    margin:20px;
-    width: 70%;
-    margin-left: 25%;
-}
-.mainLeft{
-    width: 50%;
-    float: left;
-}
-.mainRight{
-    width: 50%;
-    float: left;
-}
-
-a:link { 
-    text-decoration: none; 
-  } 
-  a:visited { 
-    text-decoration: none; 
-  } 
-  a:hover {  
-    text-decoration: underline; 
-    text-decoration-color: #B692C2;
-  } 
-  a:active { 
-    text-decoration: none; 
-  }
-  
